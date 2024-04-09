@@ -27,7 +27,7 @@ const rollDice = function () {
   else {
     roundScore = 0;
     totalScore += 1;
-    setTotalScore();
+    hold();
   }
   changeH2s(diceRoll);
 };
